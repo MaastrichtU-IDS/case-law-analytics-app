@@ -1,0 +1,123 @@
+
+.App {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.Modal {
+    position: fixed;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    right: 0;
+    top: 60px;
+    box-sizing: border-box;
+    transition: all 0.8s ease-out;
+}
+.App-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:  20px;
+    padding-left: 280px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
+}
+
+.App-title p{
+    margin: 0;
+    font-size: 22px;
+    color: #00BCD4;
+}
+.App-buttonsContainer {
+    position: absolute;
+    right: 0;
+    width: 10%;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.App-caseTitle {
+    line-height: 50px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #00BCD4;
+    color: #fff;
+}
+
+
+
+.App-form {
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+.App-network {
+    padding-top: 70px;
+    padding-left: 280px;
+}
+.Network {
+    width:80%;
+    float: left;
+    margin-top: 70px; 
+}
+.App-filter-pane {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #343A40;
+    transition: transform 0.3s ease-out;
+    
+}
+
+.App-attribute-pane {
+    padding: 10px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    text-align: left;
+    background-color: #CCC;
+    margin-top: 70px; 
+}
+.App-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.App-info {
+    padding: 20px;
+}
+.App-info p :hover {
+    color: #00BCD4;
+    cursor: pointer;
+    
+}
+.mdl-button--fab.mdl-button--colored {
+    background-color:#00BCD4 !important;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.close {
+    float: right;
+}
